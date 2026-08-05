@@ -1,0 +1,104 @@
+body{
+    color: white;
+background-image: url(images2/bg.jpeg);
+background-repeat: repeat;
+
+max-width: 1000px;
+}
+.headertext{
+color: rgb(0, 149, 255);
+border: solid;
+border-radius: 10px;
+border-style: double;
+border-top: none ;
+width: 140px;
+height: 40px;
+padding: 10px 10px 10px 10px;
+text-shadow: 10px 10px 30px rgb(0, 149, 255);
+
+}
+.lessons{
+    color:rgb(0, 149, 255) ;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+div > img{
+    
+    }
+
+.التعريف{
+    white-space: pre;
+    text-align: center;
+    line-height: 20px;
+ font-size: small;
+  font-family: "Mada", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+.text1{
+    color: red;
+    margin: auto;
+    border: solid;
+    border-width: 3px;
+    border-style:double;
+    border-radius: 90px;
+    width: 260px;
+  font-family: "Mada", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+
+}
+
+.المقدمه{
+color: red;
+text-align: center;
+font-family: "Mada", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+
+}
+
+
+
+.الدروس{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    border: solid;
+    border-radius: 100px;
+    
+}
+ .الدروس> a{
+text-decoration: none;
+color: white;
+background-color: rgb(0, 149, 255) ;
+margin: auto 25px;
+border: solid rgb(0, 149, 255);
+border-radius: 100px;
+font-size: 30px;
+box-shadow: 1px 1px 10px white ;
+}
+
+ .الدروس> a:hover{
+text-decoration: none;
+color: white;
+background-color: rgb(0, 149, 255) ;
+margin: auto 25px;
+border: solid rgb(0, 149, 255);
+border-radius: 100px;
+font-size: 30px;
+box-shadow: 1px 1px 25px white ;
+transition: 1.0s;
+}
+.lessons{
+    margin: 10px 10px 10px 10px;
+}
